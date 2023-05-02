@@ -1,0 +1,43 @@
+
+for $x in doc("Bailes.xml")/bailes/baile
+where $x/precio > 30 and $x/precio/@moneda="euro"
+return 
+     <losbailes> 
+          nombre: { data($x/nombre) }
+          plazas: ( { data($x/plazas) } )
+    </losbailes>
+    
+
+
+for $x in doc("Bailes.xml")/bailes/baile
+where contains($x/comienzo,'/1')
+return 
+     <losbailes> 
+          nombre: { data($x/nombre) }
+          comienzo: ( { data($x/comienzo) } )
+    </losbailes>
+
+
+for $x in doc("Bailes.xml")/bailes/baile
+order by $x/sala
+return 
+     <losbailes> 
+          nombre: { data($x/profesor) }
+          sala: ( { data($x/sala) } )
+    </losbailes>
+
+for $x in doc("Bailes.xml")/bailes/baile
+order by $x/sala
+return 
+     <losbailes> 
+          nombre: { data($x/profesor) }
+          {for $c in doc("Bailes.xml")/bailes/baile
+            where $c/profesor = $x/profesor
+              return $c/nombre
+          }
+    </losbailes>
+
+
+for $x in doc("Bailes.xml")/bailes/baile
+return  avg($x/precio)
+    

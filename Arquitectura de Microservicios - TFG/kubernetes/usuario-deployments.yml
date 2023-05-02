@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: usuario-jdbc
+spec:
+  selector:
+    matchLabels:
+     app: usuario-jdbc
+  template:
+    metadata:
+      labels:
+        app: usuario-jdbc
+    spec:
+      containers:
+      - name: usuario-jdbc
+        image: rauldieg/myrepository:usuario-jdbc
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: myregistrykey
+
+
+      
+      

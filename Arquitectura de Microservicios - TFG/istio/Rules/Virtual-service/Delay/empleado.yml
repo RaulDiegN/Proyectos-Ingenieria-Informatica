@@ -1,0 +1,17 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  creationTimestamp: null
+  name: empleado
+spec:
+  hosts:
+  - empleado
+  http:
+  - fault:
+      delay:
+        fixedDelay: 5.000s
+        percent: 90
+    route:
+    - destination:
+        host: empleado
+        subset: app-empleado

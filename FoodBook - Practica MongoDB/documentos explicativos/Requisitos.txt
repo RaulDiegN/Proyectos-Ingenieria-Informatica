@@ -1,0 +1,15 @@
+Se realiza individualmente
+
+- 28 Abril Entrega (via Campus). Se sube código y breve  instrucciones de uso/instalación (README.txt)
+
+-Tema libre: que represente cualquier modelo de datos realista.
+
+-Tecnología: un aplicativo (web/escritorio) que haga uso de las tecnologías de BD vista en clase (XML, MongoDB y PHP), cada una con su modelo de datos correspondiente, Cuantas más de estas tecnologías se utilicen, mejor puntuación.
+
+- El tamaño del modelo de datos en total debe asimilarse al equivalente a 5-6 "tablas" de datos.
+
+- Desde la aplicación se deben hacer las operaciones básicas de select, insert, update, delete y que se apliquen a las distintas bases de datos. La máxima puntuación se obtiene cuando se hacen correctamente todas estas operaciones sobre todas las bases de datos.
+
+- Se valorará especialmente el uso de BBDD, aunque un HMI agradable ayuda,
+
+- Se revisarán en los laboratorios en las fechas que se indiquen (se recomienda uso de laptop personal, para evitar configuraciones o funcionamientos inesperados).

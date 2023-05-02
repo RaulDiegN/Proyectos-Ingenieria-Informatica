@@ -1,0 +1,20 @@
+# Wed Oct 24 19:44:33 CEST 2018
+activos= 100
+bcm1= true
+bcm2= true
+encoding= utf-8
+firma= eb14ef921d6a61e59ea3fcd61df4c13083c3811f74146ec30e3caf6429395b482947f64cd4d2c898bd6f13a09272b154754b179b2d62867c2201ee6e566f5b024b953986e6eb1eb3ad3a3d90792a9da556887df9bb9bf57c79b0227f175544f67e6d7d74ce3e31bddc5fc3abab0f84b62a1282f23605543dfbe9b161acbae10cef152786b4d28dc4dd054eb2e2b7b13ec512a1efe531c280627059beb6b78ee5fa070181ba95db3f124de4c40ad25525b8de5679dab99e389cd1d7e2adae852
+hasta= 31.12.2018
+licencia= 36321
+mode= edu
+modo= 5
+nombre= [edu] urjc.es_|Auditoría informática_|Universidad Rey Juan Carlos
+pilar= true
+pilar1= true
+pilar2= true
+referencia= 3e1c0172b2d0946b96afeab132e33c6b5209c2d7
+renata1= true
+renata2= true
+rm1= true
+rm2= true
+version= 7

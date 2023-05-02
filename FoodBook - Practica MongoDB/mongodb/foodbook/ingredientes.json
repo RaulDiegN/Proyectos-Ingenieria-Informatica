@@ -1,0 +1,13 @@
+{"_id":{"$oid":"5cc03ff67eb8d63f3c007adb"},"ingrediente_name":"Huevo"}
+{"_id":{"$oid":"5cc03ff67eb8d63f3c007adc"},"ingrediente_name":"Patata"}
+{"_id":{"$oid":"5cc040087eb8d63f3c007ae0"},"ingrediente_name":"Leche"}
+{"_id":{"$oid":"5cc040087eb8d63f3c007ae1"},"ingrediente_name":"Azucar"}
+{"_id":{"$oid":"5cc0400f7eb8d63f3c007ae3"},"ingrediente_name":"Aceite"}
+{"_id":{"$oid":"5cc0400f7eb8d63f3c007ae4"},"ingrediente_name":"Pan"}
+{"_id":{"$oid":"5cc0404c7eb8d63f3c007ae7"},"ingrediente_name":"Carne"}
+{"_id":{"$oid":"5cc040527eb8d63f3c007aea"},"ingrediente_name":"Arroz"}
+{"_id":{"$oid":"5cc040527eb8d63f3c007aeb"},"ingrediente_name":"Nata"}
+{"_id":{"$oid":"5cc040527eb8d63f3c007aec"},"ingrediente_name":"Setas"}
+{"_id":{"$oid":"5cc0406c7eb8d63f3c007af0"},"ingrediente_name":"Cacao"}
+{"_id":{"$oid":"5cc040797eb8d63f3c007af4"},"ingrediente_name":"Pollo"}
+{"_id":{"$oid":"5cc040797eb8d63f3c007af5"},"ingrediente_name":"Colorante"}

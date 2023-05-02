@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: usuario-jdbc
+spec:
+  selector:
+    matchLabels:
+     app: usuario-jdbc
+  template:
+    metadata:
+      labels:
+        app: usuario-jdbc
+  containers:
+  - name: usuario-jdbc
+    image: rauldieg/myrepository:usuario-jdbc
+    imagePullPolicy: Always
+    ports:
+      - containerPort: 8080
+  imagePullSecrets:
+      - name: myregistrykey

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: python
+    version: v2
+  name: python-jdbc-v2
+spec:
+  selector:
+    matchLabels:
+     app: python
+     version: v2
+  template:
+    metadata:
+      labels:
+        app: python
+        version: v2
+    spec:
+      containers:
+      - name: python
+        image: rauldieg/myrepository:python-jdbc-v2
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4000
+      imagePullSecrets:
+      - name: myregistrykey
+      

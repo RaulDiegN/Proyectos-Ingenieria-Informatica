@@ -1,0 +1,33 @@
+    master ->
+	|->develop
+
+master: git checkout develop
+		git checkout branch-1:  añadir css y js al header -cabecera, estilos.. 
+		git add --all
+		git commit -m "asdgfhjk"
+		git push origin branch-1
+git pull
+git checkout nuevaramaasdgsgh
+git add --al
+git commit -m ""
+git push origin 
+
+
+ricardo git checkout branch-2: añadir nuevos pag php cabecera, wqereyt
+git add --all
+git commit ..
+git push origin...
+
+git checkout develop
+	git pull
+git fetch branch-1
+git merge develop cabecera, estilos....
+git add , git commit mergekfjagsfj, git push origin develop
+		-branch 1 
+		-branch 2
+
+raul : git checkout develop --> git pull
+git checkout branch-3 asrtsdyuio
+2ºgit pull 
+1ºgit stash
+3º git stash apply

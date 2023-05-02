@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: usuario-jdbc
+spec:
+  ports:
+  - port: 8080
+  type: NodePort
+  selector:
+    app: usuario-jdbc

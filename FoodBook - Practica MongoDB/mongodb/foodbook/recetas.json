@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5cc03ff67eb8d63f3c007ade"},"receta_autor":2,"receta_nombre":"Tortilla de patatas","receta_cocinero":"userABD","receta_ing":"Huevo,Patata,","receta_pre":"Freir,"}
+{"_id":{"$oid":"5cc040087eb8d63f3c007ae2"},"receta_autor":2,"receta_nombre":"Crema ","receta_cocinero":"userABD","receta_ing":"Leche,Huevo,Azucar,","receta_pre":"Freir,"}
+{"_id":{"$oid":"5cc0400f7eb8d63f3c007ae6"},"receta_autor":2,"receta_nombre":"Tostadas de aceite","receta_cocinero":"userABD","receta_ing":"Aceite,Pan,","receta_pre":"Tostar,"}
+{"_id":{"$oid":"5cc0404c7eb8d63f3c007ae8"},"receta_autor":3,"receta_nombre":"Chuleta de aguja","receta_cocinero":"peter","receta_ing":"Carne,","receta_pre":"Freir,"}
+{"_id":{"$oid":"5cc040527eb8d63f3c007aef"},"receta_autor":3,"receta_nombre":"Rissoto de setas","receta_cocinero":"peter","receta_ing":"Arroz,Nata,Setas,","receta_pre":"Cocer,Marinar,"}
+{"_id":{"$oid":"5cc0406c7eb8d63f3c007af2"},"receta_autor":1,"receta_nombre":"Cola-cao","receta_cocinero":"ramon77","receta_ing":"Leche,Cacao,","receta_pre":"Calentar,"}
+{"_id":{"$oid":"5cc040797eb8d63f3c007af6"},"receta_autor":1,"receta_nombre":"Paella","receta_cocinero":"ramon77","receta_ing":"Arroz,Pollo,Colorante,","receta_pre":"Cocer,"}

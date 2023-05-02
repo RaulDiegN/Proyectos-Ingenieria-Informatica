@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5cc03ff67eb8d63f3c007adf"},"user_nickname":"userABD","recetas_nombre":["Tortilla de patatas","Crema ","Tostadas de aceite"]}
+{"_id":{"$oid":"5cc0404c7eb8d63f3c007ae9"},"user_nickname":"peter","recetas_nombre":["Chuleta de aguja","Rissoto de setas"]}
+{"_id":{"$oid":"5cc0406c7eb8d63f3c007af3"},"user_nickname":"ramon77","recetas_nombre":["Cola-cao","Paella"]}

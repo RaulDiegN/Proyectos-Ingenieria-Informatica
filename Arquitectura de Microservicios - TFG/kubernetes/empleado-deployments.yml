@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: empleado
+    version: v1
+  name: empleado-jdbc-v1
+spec:
+  selector:
+    matchLabels:
+     app: empleado
+     version: v1
+  template:
+    metadata:
+      labels:
+        app: empleado
+        version: v1
+    spec:
+      containers:
+      - name: empleado
+        image: rauldieg/myrepository:empleado-jdbc-v1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: myregistrykey
+      
